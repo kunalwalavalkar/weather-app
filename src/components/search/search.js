@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
 import { geoApiOptions, GEO_API_URL } from "../../api";
 import "./search.css";
-// import spaceVideo from '../assets/space.mp4';
 
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
@@ -36,9 +35,6 @@ const Search = ({ onSearchChange }) => {
   return (
     <div className="searchBar">
       <div>
-        {/* <video autoPlay loop muted id='video'>
-          <source src={spaceVideo} type='video/mp4' />
-        </video> */}
         <h1 className="Mainheader">
           <span className="bold-text">Search for weather forecasts on </span> 
           <span className="italic-text">any city, anytime, anywhere.</span>
